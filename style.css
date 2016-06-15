@@ -1,14 +1,30 @@
-body {
-    
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10em;
+#pop {
+
+    font-family: monospace;
+    font-size: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 #field1{
     
-    margin-right: auto;
-    margin-left: auto;
-    width: 13em;
+    width: 15em;
+    padding-top: 3em;
+}
+
+#header {
+
+    font-family: monospace;
+    font-size: 3em;
+    padding-top: 1em;
+
+}
+
+input[type=text] {
+    
+    font-family: monospace;
+    font-size: 2em;
+    border: none;
+    border-bottom: 2px solid red;
+    
 }
