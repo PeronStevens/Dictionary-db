@@ -1,2 +1,2 @@
 # LAMP
-Files for LAMP stack
+Dictionary powered by MySQL
