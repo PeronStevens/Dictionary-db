@@ -1,2 +1,2 @@
-# LAMP
-Dictionary powered by MySQL
+# Dictionary Database
+Dictionary powered by MySQL / PHP / AJAX
