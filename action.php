@@ -27,9 +27,9 @@
 
     if (isset($res[0])){
         echo '<i>'.$res[0]['wordtype'].'</i>'.'<br /><br />'.$res[0]['definition'];
+    } else {
+        echo "word undefined";
     }
-    echo "word undefined";
-
   ?>
   
  
