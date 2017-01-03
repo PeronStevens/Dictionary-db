@@ -1,6 +1,4 @@
 # Dictionary Database
-Dictionary powered by MySQL / PHP / AJAX
+Dictionary powered by SQLite / PHP / AJAX
 
-- unzip files in webroot
-- upload SQL files to Database
-- set database username and password in action.php
+- open index.html in browser
