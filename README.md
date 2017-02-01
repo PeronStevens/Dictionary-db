@@ -2,4 +2,4 @@
 Dictionary powered by SQLite / PHP / AJAX
 
 - drop in web root
-- open index.html in browser
+- navigate to index.html in browser
