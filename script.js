@@ -16,5 +16,4 @@ function load() {
     xhttp.open("POST", "action.php", true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.send('word=' + str.value);
-
 }
