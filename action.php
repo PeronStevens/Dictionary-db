@@ -7,11 +7,12 @@
     $temp = $db->query("SELECT * FROM dict WHERE word = '$word' COLLATE NOCASE");
     $res  = $temp->fetchArray();
 
-    if (isset($res)){
+    if (!empty($res)){
         echo '<i>'.$res['wordtype'].'</i>'.'<br /><br />'.$res['definition'];
     } else {
         echo "word undefined";
     }
+
   ?>
   
  
