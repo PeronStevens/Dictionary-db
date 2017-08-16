@@ -1,8 +1,10 @@
-function load() {
+var input = document.getElementById('field');
 
+input.onkeyup = function(){
+    
     var xhttp = new XMLHttpRequest();
     
-    var str = document.getElementById("field1");
+    var str = document.getElementById("field");
     
     xhttp.onreadystatechange = function() {
                 
