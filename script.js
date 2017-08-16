@@ -9,7 +9,7 @@ function load() {
         if (xhttp.readyState == 4 && xhttp.status == 200){
             console.log(xhttp.responseText);
 
-            document.getElementById("pop").innerHTML = xhttp.responseText;
+            document.getElementById("definition").innerHTML = xhttp.responseText;
          }
     };
     
