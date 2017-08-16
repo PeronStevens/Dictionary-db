@@ -9,9 +9,11 @@ input.onkeyup = function(){
     xhttp.onreadystatechange = function() {
                 
         if (xhttp.readyState == 4 && xhttp.status == 200){
-            console.log(xhttp.responseText);
+            var res = JSON.parse(xhttp.responseText);
+            // console.log(res[]);
 
-            document.getElementById("definition").innerHTML = xhttp.responseText;
+            document.getElementById("word-type").innerHTML = res[0];
+            document.getElementById("word").innerHTML = res[1];
          }
     };
     

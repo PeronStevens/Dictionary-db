@@ -8,7 +8,10 @@
     $res  = $temp->fetchArray();
 
     if (!empty($res)){
-        echo '<i>'.$res['wordtype'].'</i>'.'<br /><br />'.$res['definition'];
+        $ar = array( $res['wordtype'], $res['definition']);
+
+        // echo '<i>'.$res['wordtype'].'</i>'.'<br /><br />'.$res['definition'];
+        echo (json_encode($ar)) ;
     } else {
         echo "word undefined";
     }
